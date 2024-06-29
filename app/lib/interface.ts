@@ -3,13 +3,11 @@ export interface simpleBlogCard{
     smalldescription: string;
     currentslug: string;
     titleImage: any;
-}
+};
 
 export interface fullBlog{
-    
-    
-    currentslug: string;
     title: string;
+    currentslug: string;
     smalldescription: string;
     titleImage: any;
-}
+};
