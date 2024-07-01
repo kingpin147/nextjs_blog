@@ -29,16 +29,16 @@ export default async function Home() {
   console.log(data);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 ">
       {/* Map over fetched data and render each blog post */}
       {data.map((post, idx) => (
         <Card key={idx}>
           <Image
             src={urlForImage(post.titleImage).url()}
             alt="image"
-            width={800}
-            height={800}
-            className="rounded-t-lg h-[200px] object-cover"
+            width={300}
+            height={300}
+            className="rounded-t-lg h-[300px] object-cover"
           />
           <CardContent className="mt-5">
             <h3 className="text-lg line-clamp-2 font-bold">{post.title}</h3>

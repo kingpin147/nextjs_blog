@@ -44,8 +44,8 @@ export default async function BlogArticle({ params }: { params: { slug: string }
                     priority
                     className="rounded-lg mt-8 border"
                 />
-                <div className="mt-16 prose prose-blue prose-xl dark:peer-focus-visible:">
-                    <PortableText value={data.smalldescription} />
+                <div className="mt-16 prose prose-lg dark:prose-invert prose-headings:underline prose-a:text-primary">
+                    <PortableText value={data.content} />
                 </div>
             
         </div>

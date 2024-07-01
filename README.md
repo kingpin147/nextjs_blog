@@ -1,3 +1,13 @@
+Next.js Blog Website
+This project is a blog website built using Next.js, Sanity.io for content management, Shadcn UI for component library, TypeScript for static type checking, and Tailwind CSS for styling.
+
+Features
+Next.js: A React framework for building fast and scalable web applications.
+Sanity.io: A headless CMS to manage and deliver structured content.
+Shadcn UI: A component library to build a consistent and beautiful user interface.
+TypeScript: A typed superset of JavaScript that provides static type checking.
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

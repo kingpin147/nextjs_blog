@@ -1,3 +1,5 @@
+import { TypedObject } from "sanity";
+
 export interface simpleBlogCard{
    title: string;
     smalldescription: string;
@@ -8,6 +10,6 @@ export interface simpleBlogCard{
 export interface fullBlog{
     title: string;
     currentslug: string;
-    smalldescription: string;
+    content: any;
     titleImage: any;
 };
