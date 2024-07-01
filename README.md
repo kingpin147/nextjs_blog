@@ -8,6 +8,9 @@ Shadcn UI: A component library to build a consistent and beautiful user interfac
 TypeScript: A typed superset of JavaScript that provides static type checking.
 Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
+Project Deploy link on vercel:
+https://noumanblog-aq10he4op-muhammad-nouman-attiques-projects.vercel.app/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
